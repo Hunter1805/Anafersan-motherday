@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600&family=Great+Vibes&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #B08968;
+  --color-primary-container: #D4B89F;
+  --color-on-primary: #ffffff;
+  --color-secondary: #8B674B;
+  --color-tertiary: #8C4A32;
+  --color-on-tertiary: #ffffff;
+  --color-tertiary-fixed: #E8C5B8;
+  --color-on-tertiary-container: #4A2216;
+  --color-on-tertiary-fixed-variant: #6B3422;
+  --color-background: #FAF6F0;
+  --color-on-background: #4A3B32;
+  --color-surface: #FAF6F0;
+  --color-on-surface: #4A3B32;
+  --color-surface-variant: #EADDD1;
+  --color-on-surface-variant: #6B5A4E;
+  --color-surface-container-lowest: #FFFFFF;
+  --color-surface-container-low: #F4EFE6;
+  --color-surface-container: #EFE8DD;
+  --color-surface-container-high: #EADDD1;
+  --color-surface-container-highest: #D4B89F;
+  --color-outline: #A89B90;
+  --color-outline-variant: #D1C7BD;
+
+  --font-headline: 'Cinzel', serif;
+  --font-body: 'Montserrat', sans-serif;
+  --font-label: 'Montserrat', sans-serif;
+  --font-script: 'Great Vibes', cursive;
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-on-surface);
+  font-family: var(--font-body);
+}
+
+.glass-nav {
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+/* Hide scrollbar for gallery */
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+}
+.scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
