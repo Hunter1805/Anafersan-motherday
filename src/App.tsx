@@ -50,9 +50,14 @@ export default function App() {
           <p className="text-lg text-on-surface-variant mb-8 max-w-md font-light leading-relaxed italic">
             Você escolhe a foto. Você escolhe a frase. Eu transformo em uma peça única, feita só para ela.
           </p>
-          <button className="bg-primary text-on-primary px-8 py-4 rounded-full font-medium text-lg shadow-lg hover:opacity-90 active:scale-95 transition-all w-full max-w-xs">
+          <a 
+            href="https://wa.me/5538992358268"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-primary text-on-primary px-8 py-4 rounded-full font-medium text-lg shadow-lg hover:opacity-90 active:scale-95 transition-all w-full max-w-xs inline-block"
+          >
             Quero eternizar esse momento
-          </button>
+          </a>
         </section>
 
         {/* Benefícios Section */}
@@ -161,9 +166,14 @@ export default function App() {
           <p className="text-on-tertiary-fixed-variant text-sm mb-8">
             Devido ao processo de bordado manual, aceitamos apenas um número restrito de encomendas de retratos por mês.
           </p>
-          <button className="bg-tertiary text-on-tertiary px-8 py-3 rounded-full font-medium hover:opacity-90 active:scale-95 transition-all shadow-md">
+          <a 
+            href="https://wa.me/5538992358268"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-tertiary text-on-tertiary px-8 py-3 rounded-full font-medium hover:opacity-90 active:scale-95 transition-all shadow-md inline-block"
+          >
             Garantir meu retrato
-          </button>
+          </a>
         </section>
 
         {/* Final Emocional */}
@@ -195,9 +205,14 @@ export default function App() {
       {/* Footer */}
       <footer className="bg-surface-container-low w-full py-12 px-8 flex flex-col items-center gap-6 pb-24 border-t border-outline-variant/30">
         <div className="w-full max-w-xs mx-auto">
-          <button className="w-full bg-primary text-on-primary px-8 py-5 rounded-full font-bold text-lg shadow-xl hover:opacity-90 active:scale-95 transition-all uppercase tracking-wide">
+          <a 
+            href="https://wa.me/5538992358268"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="w-full bg-primary text-on-primary px-8 py-5 rounded-full font-bold text-lg shadow-xl hover:opacity-90 active:scale-95 transition-all uppercase tracking-wide inline-block text-center"
+          >
             Garantir meu bordado
-          </button>
+          </a>
         </div>
         <div className="mt-8 text-xl font-headline text-primary tracking-widest">ANA FERSAN</div>
       </footer>
