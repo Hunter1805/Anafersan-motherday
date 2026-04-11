@@ -4,6 +4,9 @@
  */
 
 import { Menu, ShoppingBag, Hand, Camera, Star, Heart } from 'lucide-react';
+import foto1 from './assets/foto1.jpeg';
+import foto2 from './assets/foto2.jpeg';
+import foto3 from './assets/foto3.jpeg';
 
 export default function App() {
   return (
@@ -36,7 +39,7 @@ export default function App() {
             <img
               alt="Retrato Bordado em Bastidor - Mãe e Filha"
               className="w-full h-full object-cover"
-              src="/foto1.jpeg"
+              src={foto1}
               referrerPolicy="no-referrer"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-primary/20 to-transparent"></div>
@@ -135,7 +138,7 @@ export default function App() {
               <img
                 alt="Retrato Bordado Personalizado"
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110 group-hover:brightness-110"
-                src="/foto3.jpeg"
+                src={foto3}
                 referrerPolicy="no-referrer"
               />
               <div className="absolute bottom-4 left-4 right-4 p-4 glass-nav rounded-xl text-on-surface bg-surface/80 transition-transform duration-500 group-hover:-translate-y-2">
@@ -146,7 +149,7 @@ export default function App() {
               <img
                 alt="Detalhe do Bordado Manual"
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110 group-hover:brightness-110"
-                src="/foto2.jpeg"
+                src={foto2}
                 referrerPolicy="no-referrer"
               />
               <div className="absolute bottom-4 left-4 right-4 p-4 glass-nav rounded-xl text-on-surface bg-surface/80 transition-transform duration-500 group-hover:-translate-y-2">
