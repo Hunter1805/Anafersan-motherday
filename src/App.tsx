@@ -36,7 +36,7 @@ export default function App() {
             <img
               alt="Retrato Bordado em Bastidor - Mãe e Filha"
               className="w-full h-full object-cover"
-              src="https://lh3.googleusercontent.com/aida/ADBb0uhyuiUtFDA2k9rnHUMX5wEt88tPDDbytff4EM_kfXZQr0jp-hHnDesrGxj_jXmjnP4lQcHGMPO24AtijlUA9H1fF-xh46jBRodob766TGXFGxSeCAajru3d3Za6SAHtyZ6MjEb-fnDPSaf4K6j5tXeUWs72x4OO_EPV1tOjejTOyEbxvXWmeOPyppP6hCkwpZNWr2oRoWzYYKcV_ZmKT_jlvyNmzQXUz3OuNFSj3BVrBIB7UacoLVuo6fL2F5y0MdM9MinxTN6aeA"
+              src="/foto1.jpeg"
               referrerPolicy="no-referrer"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-primary/20 to-transparent"></div>
@@ -135,7 +135,7 @@ export default function App() {
               <img
                 alt="Retrato Bordado Personalizado"
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110 group-hover:brightness-110"
-                src="https://lh3.googleusercontent.com/aida/ADBb0ugHQlbDGtvwa9t3sRZc7rEdWwRArbvtp7jSoH2JhDJ--xTUrZTswB6Q5dInafqyuJYfNoklbnUv2O6A-kS_DG373GDV06StOmWter2TKi927teZfFA85EBiNOkwmIsX3Ul8-LD3NnmYSxHglWWcYJpq-BnRshnG-gy7Jcg594L9OuL7jNv4kiqK3e-SlmY6Jw4Ht2sKaHwE9ZBSvXo6jhcArdheHUNV6iuBBOjoRO2hT4Wt5LGlgMzIPl6hRk763fbf9_9VOwQM"
+                src="/foto3.jpeg"
                 referrerPolicy="no-referrer"
               />
               <div className="absolute bottom-4 left-4 right-4 p-4 glass-nav rounded-xl text-on-surface bg-surface/80 transition-transform duration-500 group-hover:-translate-y-2">
@@ -146,7 +146,7 @@ export default function App() {
               <img
                 alt="Detalhe do Bordado Manual"
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110 group-hover:brightness-110"
-                src="https://lh3.googleusercontent.com/aida/ADBb0ugrZ6H6IMl5datdSfuOmRNsVk17srcooV9WZy6QpCSkV5SA581g2sxF7zuLzR3bhnAabp9rhSfNDEfgKHgZGmnH2jgevTKcIyCUXEh5Cqg6oO5ZMJs6x1hvPOBv-j4zpuDPyOJP0OUI7r12qlYiW3Bs1xlbzzBIA6un5xqrR-OtFXPLhrnopMEimTfPXB3yMP3KX71ichtHt5uESiY1RAI01196oZLYP36iVksCc2_p-QvlC5JvizAOxcz_qZYoCHZ4ehOD6XFXQw"
+                src="/foto2.jpeg"
                 referrerPolicy="no-referrer"
               />
               <div className="absolute bottom-4 left-4 right-4 p-4 glass-nav rounded-xl text-on-surface bg-surface/80 transition-transform duration-500 group-hover:-translate-y-2">
